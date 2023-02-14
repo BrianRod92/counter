@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Page Heading code below */
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* Add 2 to your session style code below */
+.click {
+    background-color: greenyellow;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.click > a {
+    text-decoration: none;
+}
+
+/* Reset your session style code below */
+.reset {
+    background-color: red;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.reset > a {
+    text-decoration: none;
+    
+}

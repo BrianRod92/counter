@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Jinja engine static folder css link code below -->
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Counter</title>
+</head>
+
+<body>
+    <h1>Counter</h1>
+    <!-- Display count amount code below -->
+    <p>{{session["counter"]}} time(s)</p>
+    <div class="container">
+        <!-- Count by 2 method, server reference code below -->
+        <div class="click" >
+            <a href="/count2" name="count2">CLICK</a>
+        </div>
+        <!-- Reset method, server reference code below -->
+        <div class="reset">
+            <a href="/reset" name="reset">RESET</a> 
+        </div>
+    </div>
+</body>
+
+</html>
